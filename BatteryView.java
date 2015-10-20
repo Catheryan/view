@@ -104,7 +104,7 @@ public class BatteryView extends View {
 		super.onDraw(canvas);
 		canvas.save();
 		//canvas.translate(measureWidth / 2, measureHeigth / 2);
-		canvas.translate(0,measureHeigth / 4+11);
+		canvas.translate(0,measureHeigth / 4+5);
 		canvas.drawRoundRect(mBatteryRect, 2f, 2f, mBatteryPaint); // 画电池轮廓需要考虑
 																	// 画笔的宽度
 		canvas.drawRoundRect(mCapRect, 2f, 2f, mBatteryPaint);// 画电池盖

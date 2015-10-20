@@ -25,7 +25,7 @@ import com.yzh.android.tools.ToolResource;
  * slideSwitch.setOnSwitchChangedListener(onSwitchChangedListener);
  * linearLayout.addView(slideSwitch);
  * </pre>
- * @author 曾繁添
+ * @author yzh
  *
  */
 public class SwitchButton extends View implements IView
